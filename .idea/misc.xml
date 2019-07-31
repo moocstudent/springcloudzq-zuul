@@ -14,6 +14,7 @@
         <option value="$PROJECT_DIR$/product-view-service-feign/pom.xml" />
         <option value="$PROJECT_DIR$/utils-boot/pom.xml" />
         <option value="$PROJECT_DIR$/hystrix-dashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/zuul-module/pom.xml" />
       </list>
     </option>
   </component>

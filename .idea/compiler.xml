@@ -13,7 +13,9 @@
         <module name="product-view-service-feign" />
         <module name="springcloudbus" />
         <module name="springcloudzq-hystrixdashboard" />
+        <module name="springcloudzq-zuul" />
         <module name="utils-boot" />
+        <module name="zuul-module" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

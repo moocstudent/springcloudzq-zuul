@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.ykmimi</groupId>
-    <artifactId>springcloudzq-hystrixdashboard</artifactId>
+    <artifactId>springcloudzq-zuul</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>springcloudzq-hystrixdashboard</name>
+    <name>springcloudzq-zuul</name>
     <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
 
@@ -56,6 +56,8 @@
         <module>product-data-service</module>
         <module>product-view-service-feign</module>
         <module>utils-boot</module>
+        <module>zuul-module</module>
+
     </modules>
 
 </project>
