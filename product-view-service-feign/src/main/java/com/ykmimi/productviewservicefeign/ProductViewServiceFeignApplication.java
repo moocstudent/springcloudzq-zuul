@@ -27,7 +27,7 @@ public class ProductViewServiceFeignApplication {
         }
 
         int port = 0;
-        port = PortUtil.setPort(0, "请输入ProductViewServiceFeignApplication的端口号,推荐8012.", 8012);
+        port = PortUtil.setPort(3, "请输入ProductViewServiceFeignApplication的端口号,推荐8012.", 8012);
         new SpringApplicationBuilder(ProductViewServiceFeignApplication.class).properties("server.port=" + port).run(args);
         //页面持续访问,用于断路器监控
         AccessViewService.accessStudents();
